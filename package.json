@@ -1,0 +1,15 @@
+{
+    "name": "LaBella",
+    "version": "1.0.0",
+    "description": "7 pages of different layout for my very first built website, La Bella",
+    "main": "index.js",
+    "scripts": {
+      "devserver": "live-server"
+    },
+    "author": "BauLi",
+    "license": "ISC",
+    "devDependencies": {
+      "node-sass": "^4.13.1"
+    }
+  }
+  

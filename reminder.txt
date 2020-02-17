@@ -1,0 +1,45 @@
+Font scaling based on width of container
+https://stackoverflow.com/questions/16056591/font-scaling-based-on-width-of-container
+
+
+blogs ref
+https://codepen.io/Popopp/pen/mdbXvWa
+
+code hamburger menuUUUUUUU
+https://jaredtong.com/how-to-code-a-hamburger-menu/
+
+
+Folder Structure for Web Development by Mayur Nalwala
+<!-- -->
+https://medium.com/@nmayurashok/file-and-folder-structure-for-web-development-8c5c83810a5
+
+
+<!-- You'll want files from vendors such as jQuery and Bootstrap to be included before yours. This means that:
+    CSS: You can override their styles with your own*
+    Scripts: You have access to any objects added to the global scope such as window (jQuery adds $, for example) -->
+
+<html>
+  <head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="your-other-styles.css">
+  </head>
+  <body>
+    <!-- content -->
+    <script src="jquery.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="your-other-scripts.js"></script>
+  </body>
+</html>
+
+CSS Tip #1: Resetting Your Styles with CSS Reset by William Craig
+<!--2. Your CSS Reset has to be the first thing the browser sees (duh).
+Resetting your styles after declaring a style rule for an element will mess you up. You’ll scratch your head wonder
+ing why the margins you declared for .some-class isn’t working. Therefore it’s essential that the first thing the 
+browser sees is your CSS Reset.
+
+Laugh now, but it’s a common mistake amongst rusty veterans and beginning developers.
+
+Note: In case you fall into the “people-prone-to-this-common-mistake” category, here’s the reason why it has to 
+be at the very top of your CSS document/s: CSS works on a top-down hierarchy with rules lower down the CSS 
+document taking precedence if there’s a conflicting/redundant style rule declaration.-->
+https://www.webfx.com/blog/web-design/css-tip-1-resetting-your-styles-with-css-reset/s
